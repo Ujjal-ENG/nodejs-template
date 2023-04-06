@@ -1,0 +1,31 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": ["eslint:recommended", "prettier", "airbnb-base"],
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": "error",
+        "linebreak-style": "error",
+        "no-var": "error",
+        "camelcase": "error",
+        "no-empty": "error",
+        "default-case": "error",
+        "eqeqeq": "error",
+        "prettier/prettier": [
+            "error",
+            {
+                "trailingComma": "es5",
+                "singleQuote": true,
+                "printWidth": 100,
+                "tabWidth": 4,
+                "semi": true
+            }
+        ]
+    },
+    "plugins": ["prettier"]
+}
