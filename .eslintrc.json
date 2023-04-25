@@ -9,13 +9,17 @@
         "ecmaVersion": "latest"
     },
     "rules": {
-        "indent": "error",
+        "max-len": 0,
+        "consistent-return": 0,
+        "no-console": 0,
+        "indent": 0,
         "linebreak-style": "error",
         "no-var": "error",
         "camelcase": "error",
         "no-empty": "error",
         "default-case": "error",
         "eqeqeq": "error",
+         "import/no-extraneous-dependencies": [0, { "devDependencies": false, "optionalDependencies": false, "peerDependencies": false }],
         "prettier/prettier": [
             "error",
             {
